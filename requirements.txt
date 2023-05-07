@@ -1,2 +1,4 @@
-py -m pip install sklearn
-
+sklearn
+pandas
+numpy
+streamlit
