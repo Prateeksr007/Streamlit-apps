@@ -25,7 +25,7 @@ a = st.text_input("Your name")
 
 st.write(f'Hello {a} \n We will solve the classification problem. We will need few inputs from you')
 
-Sepal_length = st.slider("Sepal Length", min_value=iris.SepalLengthCm.min(), max_value=iris.SepalLengthCm.max())
+Sepal_length = st.slider("Sepal Length", min_value=float(iris.SepalLengthCm.min()), max_value=float(iris.SepalLengthCm.max()))
 
 Sepal_width = st.slider("Sepal Width", min_value=iris.SepalWidthCm.min(), max_value=iris.SepalWidthCm.max())
 
