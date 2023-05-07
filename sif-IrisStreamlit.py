@@ -12,7 +12,7 @@ from sklearn.ensemble import AdaBoostClassifier
 from sklearn.svm import SVC
 from sklearn import tree
 
-DATA_URL = ('https://github.com/Prateeksr007/Streamlit-apps/blob/main/Iris.csv')
+DATA_URL = ('https://raw.githubusercontent.com/Prateeksr007/Streamlit-apps/blob/main/Iris.csv')
 
 iris = pd.read_csv(DATA_URL)
 
