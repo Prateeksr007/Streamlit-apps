@@ -12,7 +12,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.svm import SVC
 from sklearn import tree
-import seaborn as sns
 
 iris = pd.read_csv('iris.csv')
 
