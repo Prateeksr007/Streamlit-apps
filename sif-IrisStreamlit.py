@@ -27,11 +27,11 @@ st.write(f'Hello {a} \n We will solve the classification problem. We will need f
 
 Sepal_length = st.slider("Sepal Length", min_value=float(iris.SepalLengthCm.min()), max_value=float(iris.SepalLengthCm.max()))
 
-Sepal_width = st.slider("Sepal Width", min_value=iris.SepalWidthCm.min(), max_value=iris.SepalWidthCm.max())
+Sepal_width = st.slider("Sepal Width", min_value=float(iris.SepalWidthCm.min()), max_value=float(iris.SepalWidthCm.max()))
 
-Petal_length = st.slider("Petal Length", min_value=iris.PetalLengthCm.min(), max_value=iris.PetalLengthCm.max())
+Petal_length = st.slider("Petal Length", min_value=float(iris.PetalLengthCm.min()), max_value=float(iris.PetalLengthCm.max()))
 
-Petal_width = st.slider("Petal Width", min_value=iris.PetalWidthCm.min(), max_value=iris.PetalWidthCm.max())
+Petal_width = st.slider("Petal Width", min_value=float(iris.PetalWidthCm.min()), max_value=float(iris.PetalWidthCm.max()))
 
 X_train = pd.DataFrame({'SepalLengthCm':[Sepal_length],
                        'SepalWidthCm':[Sepal_width],
