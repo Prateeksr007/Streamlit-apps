@@ -7,7 +7,6 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-from sklearn import datasets
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.svm import SVC
